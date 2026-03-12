@@ -1,4 +1,4 @@
-package com.rams.workshop.dependencyinjection;
+package DependencyInjectionDemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

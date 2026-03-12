@@ -1,4 +1,4 @@
-package com.rams.workshop.dependencyinjection;
+package DependencyInjectionDemo;
 
 public class AlienWithoutDI {
     public void code() {

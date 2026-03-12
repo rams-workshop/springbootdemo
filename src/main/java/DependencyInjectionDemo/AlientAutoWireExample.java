@@ -1,4 +1,4 @@
-package com.rams.workshop.dependencyinjection;
+package DependencyInjectionDemo;
 
 import org.springframework.stereotype.Component;
 
