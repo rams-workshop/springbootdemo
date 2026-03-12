@@ -3,13 +3,12 @@ package com.rams.workshop.dependencyinjection;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-public class SpringbootDependencyInjection {
+public class DependencyInjectionDemo {
 
 	public static void main(String[] args) {
-		ApplicationContext context = SpringApplication.run(SpringbootDependencyInjection.class, args);
+		ApplicationContext context = SpringApplication.run(DependencyInjectionDemo.class, args);
 
         //this is just to show that we can create an object without using Spring's Dependency Injection (DI) mechanism.
 		AlienWithoutDI alienWithoutDI = new AlienWithoutDI();
